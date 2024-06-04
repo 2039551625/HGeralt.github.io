@@ -23,7 +23,7 @@
 .blog-content p {
     font-size: 20px;
     text-indent: 2em;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 .blog-content p img{
     width: 700px; /* 设置图片的宽度为200像素 */  
@@ -36,7 +36,7 @@
     display: block;
     width: 150px;
     color: rgb(27, 208, 27);
-    height: 40px;
+    height: 35px;
     /* 设置边框 */
     border: 2px solid rgb(10, 138, 31);
     /* 文字水平居中 */
