@@ -21,6 +21,38 @@
 
 /* 博客内容 */
 .blog-content p {
+    font-size: 20px;
     text-indent: 2em;
     padding: 10px 0;
+}
+.blog-content p img{
+    width: 700px; /* 设置图片的宽度为200像素 */  
+    height: auto; /* 高度自动，以保持图片的原始纵横比 */ 
+}
+
+/* 查看博客详情的按钮 */
+.detail .list {
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    color: rgb(27, 208, 27);
+    height: 40px;
+    /* 设置边框 */
+    border: 2px solid rgb(10, 138, 31);
+    /* 文字水平居中 */
+    text-align: center;
+    /* 文字垂直居中 */
+    line-height: 30px;
+    /* 去掉下划线 */
+    text-decoration: none;
+    /* 让按钮来到屏幕中间 */
+    margin: 10px auto;
+    /* 加上一个过度效果 */
+    transition: all 1s;
+}
+
+/* 实现鼠标悬停在按钮上时有一个背景色切换的效果 */
+.detail .list:hover {
+    background-color: rgb(34, 40, 213);
+    color: white;
 }

@@ -51,3 +51,9 @@
     background-color: grey;
     color: white;
 }
+
+.blog .desc p {
+    font-size: 18px;
+    text-indent: 2em;
+    padding: 10px 0;
+}

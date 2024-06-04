@@ -35,7 +35,6 @@
 .login-dialog .row2 {
     height: 40px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 30px;
@@ -57,15 +56,6 @@
     /* 去掉轮廓线（选中输入框时，外面的黑边） */
     outline: none;
 }
-.login-dialog .row2 a {
-    font-size: 14px;
-    /* 去除连接下划线 */
-    text-decoration: none;
-    color: rgba(6, 52, 235, 0.64);
-    transition: 0.2s;
-    width: 250px;
-    text-align: end;
-}
 .login-dialog .row2 button {
     width: 280px;
     height: 40px;
@@ -79,18 +69,3 @@
     background-color: black;
     color: white;
 }
-/*
-.login-dialog .row2 input {
-    width: 280px;
-    height: 35px;
-    border-radius: 8px;
-    font-size: 20px;
-    background-color: rgba(41, 83, 149, 0.7);
-    border: none;
-}
-
-.login-dialog .row2 input:active {
-    background-color: black;
-    color: white;
-}
-*/
