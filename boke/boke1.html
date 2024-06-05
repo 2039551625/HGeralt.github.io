@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/boke.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="../image/头像.jpg" alt="">
+        <span class="title">个人博客</span>
+         <!-- 使用 span 把左右两侧的元素给撑开 -->
+         <span class="spacer"></span>
+        <a href="../blog_detail.html">主页</a>
+        <a href="../blog_edit.html">写博客</a>
+        <a href="../index.html">注销</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="../image/狗头.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>HGeralt</h3>
+                <!-- 其它信息 -->
+                <a href="https://blog.csdn.net/H_Geralt?type=blog">CSDN 地址</a>
+                <a href="https://github.com/2039551625?tab=repositories">GitHub 地址</a>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 使用这个 div 来放博客内容 -->
+            <div class="blog-content">
+                <!-- 博客的标题 -->
+                <h3>线性神经网络</h3>
+                <!-- 博客的日期 -->
+                <div class="date">2024-5-06</div>
+                <!-- 博客的内容 -->
+                <div class="detail">
+                    <p>
+                        <h4>3.1线性回归的基本概念</h4>
+                        <p>
+                            回归是变量与变量之间建立的某种联系的表达的一类方法。线性回归就是回归当中数据具有线性联系的一种方法模型。在机器学习中，一般使用高维数据集，所以使用线性代数表示更好。
+                        </p>
+                    </p>
+                    <p>
+                        <h4>3.2与3.3线性回归的从零开始实现</h4>
+                        <p>这其中，为主要采用均方差损失函数（MSE），优化算法为随机梯度下降（SGD）。<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至于具体代码实现,请见：
+                            <a href="https://blog.csdn.net/H_Geralt/article/details/138427756?spm=1001.2014.3001.5502">https://blog.csdn.net/H_Geralt/article/details/138427756?spm=1001.2014.3001.5502</a>
+                        </p>
+                    </p>
+                    <p>
+                        <h4>3.4与3.5结合softmax的线性回归</h4>
+                        <p>这其中，为主要采用交叉熵损失函数，优化算法为随机梯度下降（SGD）。<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至于具体代码实现,请见：
+                            <a href="https://blog.csdn.net/H_Geralt/article/details/138427756?spm=1001.2014.3001.5502">https://blog.csdn.net/H_Geralt/article/details/138427756?spm=1001.2014.3001.5502</a>
+                        </p>
+                    </p>
+                </div>
+        </div>
+    </div>
+    </body>
+</html>

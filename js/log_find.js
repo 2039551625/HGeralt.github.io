@@ -32,14 +32,14 @@ function loginAction(user, passwd) {
 
 function refind(user) {
     loadAccount();
-    var para = document.querySelector('#popup p');
-    var head = document.querySelector('#popup h2');
+    var p = document.querySelector('#popup p');
+    var h = document.querySelector('#popup h2');
     if(localStorage.hasOwnProperty(user)) {
-        head.textContent = '该用户存在';
-        para.textContent = '密码为' + localStorage.getItem(user);
+        h.textContent = '该用户存在';
+        p.textContent = '密码为' + localStorage.getItem(user);
     } else {
-        head.textContent = user+'用户不存在';
-        para.textContent = '请重新输入';
+        h.textContent = user+'用户不存在';
+        p.textContent = '请重新输入';
     }
     openPopup();
 }1

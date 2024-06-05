@@ -1,4 +1,4 @@
-/* 这个 CSS 文件是放登陆页面的专属样式 */
+/* 这个 CSS 文件是博客登陆页面的专属样式 */
 
 /* 1. 设置版心，让这个版心将页面填充满 */
 /* 2. 在版心中间位置，设置一个登陆区域 */
@@ -79,18 +79,3 @@
     background-color: black;
     color: white;
 }
-/*
-.login-dialog .row2 input {
-    width: 280px;
-    height: 35px;
-    border-radius: 8px;
-    font-size: 20px;
-    background-color: rgba(41, 83, 149, 0.7);
-    border: none;
-}
-
-.login-dialog .row2 input:active {
-    background-color: black;
-    color: white;
-}
-*/

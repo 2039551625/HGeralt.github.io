@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/boke.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="../image/头像.jpg" alt="">
+        <span class="title">个人博客</span>
+         <!-- 使用 span 把左右两侧的元素给撑开 -->
+         <span class="spacer"></span>
+        <a href="../blog_detail.html">主页</a>
+        <a href="../blog_edit.html">写博客</a>
+        <a href="../index.html">注销</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="../image/狗头.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>HGeralt</h3>
+                <!-- 其它信息 -->
+                <a href="https://blog.csdn.net/H_Geralt?type=blog">CSDN 地址</a>
+                <a href="https://github.com/2039551625?tab=repositories">GitHub 地址</a>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 使用这个 div 来放博客内容 -->
+            <div class="blog-content">
+                <!-- 博客的标题 -->
+                <h3>缓解过拟合的几个常用方法</h3>
+                <!-- 博客的日期 -->
+                <div class="date">2024-6-3</div>
+                <!-- 博客的内容 -->
+                <div class="detail">
+                    <p>
+                        <h4>过拟合（overfitting)的基本概念</h4>
+                        过拟合（overfitting)，机器学习模型或者是深度学习模型在训练样本中表现得过于优越，导致在验证数据集以及测试数据集中表现不佳。
+                    </p>
+                    <p>
+                        <h4>缓解过拟合几个常用方法</h4>
+                    </p>
+                    <p>
+                        1.增加训练数据量
+                        <br>简而言之，出现过拟合现象，有一定原因是，训练数据太少，但模型网络十分复杂，从而通过导致过拟合，所以可通过训练大量的数据，缓解过拟合。
+                    </p>
+                    <p>
+                        2.正则化
+                        <br>正则化一般使用L1范数，L2范数。主要使用的是L2范数正则化，简单说，就是在损失函数后面，增加一个L2范数的惩罚项，避免训练出的参数过大
+                    </p>
+                    <p>
+                        3.暂退法（Dropout）
+                        <br>这种方法只针对于神经网络中，而且一般只在训练阶段使用，对于暂退法从表面上看是在训练过程中丢弃（drop out）一些神经元。大致的实现：在整个训练过程的每一次迭代中，标准暂退法包括在计算下一层之前将当前层中的一些节点置零。
+                    </p>
+                    <p>
+                        4.早停法
+                        <br>对模型进行训练迭代时，我们可以度量每次迭代的损失。当验证损失开始增加时，我们应该及时停止训练模型，这样就能阻止过拟合。
+                    </p>
+                    <p>
+                        5.减少特征
+                        <br>减少特征能够降低模型的复杂性，并且在一定程度上避免噪声，使模型更高效。为了降低复杂度，我们可以移除层或减少神经元数量，使网络变小。虽然模型的复杂性降低了，但是模型的效果变差了，所以这种方法不是特别推荐。
+                    </p>
+                    <p>
+                        <h4>总结：</h4>
+                        <a href="https://blog.csdn.net/H_Geralt/article/details/139422795?spm=1001.2014.3001.5502">https://blog.csdn.net/H_Geralt/article/details/139422795?spm=1001.2014.3001.5502</a>
+                    </p>
+                </div>
+        </div>
+    </div>
+    </body>
+</html>
