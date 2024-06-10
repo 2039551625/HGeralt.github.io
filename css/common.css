@@ -18,7 +18,7 @@ html, body {
     /* 页面背景 */
     background-image: url(../image/背景2.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 } 
 /* 导航栏 */
